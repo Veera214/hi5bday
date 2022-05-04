@@ -1,0 +1,185 @@
+html {
+    scroll-behavior: smooth;
+   }
+   
+
+   body
+{
+    text-align: center;
+    background: linear-gradient(#e060eb 0%, #2778ae 100%);
+}
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+#bio {
+   
+}
+   #map iframe
+   {
+       width: 100%;
+      height:400px;
+       padding-top: 10px; }
+   
+   
+   .contact_1 a
+   {
+       text-shadow: none;
+      
+       color: aliceblue;
+       font-size: 25px;
+   }
+   .contact_1 a:hover
+   {transform:scale(1.5);}
+
+   #footer{
+     height: 20px;
+     background-color:white;
+     }
+   
+   input
+   {
+       background: rgb(33, 20, 215)
+   }
+   
+   .announcement{
+   background-color:#42cee7;
+   width: 100%;
+   height: 50px;
+   }
+   
+   #marqueeStyle{
+     width:100%;
+     direction:right;
+     height:100px;
+     color: rgb(245, 42, 23);
+     font-size:120%;
+   }
+   
+   #video{
+     width:100%;
+     height:500px;
+     border: none;
+   }
+   
+   /* Clearfix (clear floats) */
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+   
+   .travel_mainDiv
+   {
+     float: left;
+     width: 100%;
+     padding: 5px;
+     border: 10px solid #0a5010;
+   }
+   
+   .travel_mainDiv img
+   {
+     width: 100%;
+     height:300px;
+   } 
+   
+   .travel_mainDiv hr
+   {
+       width: 100%; 
+   }
+   
+   .travel_mainDiv h5 , .travel_mainDiv p
+   {
+   margin-left: 20px;
+   }
+   
+   
+   #achievementsID{
+    padding-bottom: 10px;
+   }
+   
+   .movie_head
+   {
+       font-size: 20px;
+       padding: 6px 22px;
+       border-radius: 10px;
+       margin-bottom: 15px;
+       width: 100%;
+       display: inline-block;
+   }
+   
+   .movie_head i
+   {
+   float: right;
+   }
+   
+   .movie_text span
+   {
+   color: #ff7700;
+   }
+
+  #myNavbar
+  { font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  background-color:rgb(11, 214, 31);
+
+ 
+}
+ul li:hover
+{ transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(236, 11, 11, 0.5);
+  color:rgb(241, 11, 11);
+}
+ul li{color:whitesmoke;}
+
+  .body_background 
+  {
+      background-image:url(hOye.gif);
+      background-position:center;
+    background-size: cover;
+  }
+  #myCanvas
+  {
+      border-width:5px;
+      background-color: white; 
+      border-style:ridge;
+    border-color:darkviolet;
+  }
+  #hifive
+  {
+ font-family: 'Source Code Pro', monospace;
+    font-size: 15px; 
+  }
+  #output
+  {width:200px;
+  height: 200px;
+border-radius: 10px;}
+
+#headc
+{display:none;}
+
+#myCarousel
+{
+    background-color: rgb(23, 14, 199);
+}
+#myCarousel img
+{ text-align: center;
+    height: 400px;
+    width:500px;
+       }
+.carousel-caption
+{
+    margin-bottom: 0px;
+    margin-top: 15px;
+    color : rgb(236, 18, 18);
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
